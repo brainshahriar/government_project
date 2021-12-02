@@ -4,19 +4,7 @@
 
 <!-- Mirrored from lalmonirhatmunicipality.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Nov 2021 17:51:48 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-    <title>লালমনিরহাট পৌরসভা</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="Front/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="Front/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Front/css/style.css">
-    <link rel="stylesheet" type="text/css" href="Front/css/responsive.css">
-    </head>
+@include('frontend.partials.header')
 
 <body id="home-page">
     <header id="header">
@@ -46,89 +34,7 @@
     <header id="nav-bar" class="sticky-top">
     <div class="container">
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">
-                    <i class="fas fa-home"></i>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ইউনিয়ন তথ্য
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">ইউনিয়ন সংক্ষিপ্ত বিবরন</a>
-                                <a class="dropdown-item" href="#">ইউনিয়ন সাংগঠনিক
-                                    কাঠামো</a>
-                                <a class="dropdown-item" href="#">ইউনিয়ন মানচিত্র</a>
-                                <a class="dropdown-item" href="#">সম্মানিত চেয়ারম্যান তালিকা</a>
-                                <a class="dropdown-item" href="#">ইউনিয়ন কর্মকর্তা ও
-                                    কর্মচারী</a>
-                                <a class="dropdown-item" href="#">শিক্ষা বিষয়ক তথ্য</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">যোগাযোগ</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                জরুরী যোগাযোগ
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="mayor-profile.html">চেয়ারম্যান প্রোফাইল
-                                    এবং
-                                    সংযোগ</a>
-                                <a class="dropdown-item" href="councilor-profile.html">চেয়ারম্যান প্রোফাইল
-                                    এবং সংযোগ</a>
-                                <a class="dropdown-item" href="uno-profile.html">প্রধান নির্বাহী কর্মকর্তার
-                                    প্রোফাইল এবং
-                                    সংযোগ</a>
-                                <a class="dropdown-item" href="#">তথ্য পরিষেবা
-                                    কেন্দ্র</a>
-                                <a class="dropdown-item" href="admin-profile.html">প্রশাসন বিভাগ</a>
-                                <a class="dropdown-item" href="engineer-profile.html">প্রকৌশল বিভাগ</a>
-                                <a class="dropdown-item" href="health.html">স্বাস্থ্য বিভাগ</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="notices.html">নোটিশ</a>
-                        </li>
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ডাউনলোড
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="download.html">ফরম</a>
-                                <a class="dropdown-item" href="citizen-charter.html">সিটিজেন েচার্টার</a>
-                                <a class="dropdown-item" href="once-eye.html">এক নজরে</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                অন্যান্য
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">অন্যান্য</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ডিজিটাল সেবা</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            @include('frontend.partials.navbar')
         </div>
     </div>
 </header>
@@ -368,14 +274,14 @@
             <div class="app-links ">
                 <div>
                     <div class="list-group">
-                                                                        <a href="#" class="list-group-item list-group-item-action">ট্রেড লাইসেন্স অ্যাপ্লিকেশান ফরম</a>
-                                                <a href="#" class="list-group-item list-group-item-action">উত্তরাধিকার সনদ ফরম</a>
-                                                <a href="#" class="list-group-item list-group-item-action">হোল্ডিং নাম্বার ফরম</a>
-                                                <a href="#" class="list-group-item list-group-item-action">জন্ম/মৃত্যু সনদ বাতিল/সংশোধনের আবেদনপত্র</a>
-                                                <a href="#" class="list-group-item list-group-item-action">মৃত্যু সনদ ফরম</a>
-                                                <a href="#" class="list-group-item list-group-item-action">মৃত্যু নিবন্ধন ফরম</a>
-                                                <a href="#" class="list-group-item list-group-item-action">জন্ম নিবন্ধন ফরম</a>
-                                            </div>
+                        <a href="#" class="list-group-item list-group-item-action">ট্রেড লাইসেন্স অ্যাপ্লিকেশান ফরম</a>
+                        <a href="#" class="list-group-item list-group-item-action">উত্তরাধিকার সনদ ফরম</a>
+                        <a href="#" class="list-group-item list-group-item-action">হোল্ডিং নাম্বার ফরম</a>
+                        <a href="#" class="list-group-item list-group-item-action">জন্ম/মৃত্যু সনদ বাতিল/সংশোধনের আবেদনপত্র</a>
+                        <a href="#" class="list-group-item list-group-item-action">মৃত্যু সনদ ফরম</a>
+                        <a href="#" class="list-group-item list-group-item-action">মৃত্যু নিবন্ধন ফরম</a>
+                        <a href="#" class="list-group-item list-group-item-action">জন্ম নিবন্ধন ফরম</a>
+                      </div>
                 </div>
             </div>
         </div>
@@ -805,22 +711,7 @@
     </section>
 
 
-    <footer id="footer">
-        <div class="container">
-            <div class="footer text-center py-5">
-                <div> Copyright &copy; 2021</div>
-                <div class="mt-3">
-                    কারিগরি সহযোগিতায়
-                    <div>
-                        <a href="#">
-                            <img class="d-block mx-auto" width="120"
-                                src="{{ asset('test.jpg') }}" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('frontend.partials.footer')
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="Front/js/jquery-3.5.1.slim.min.js"></script>
