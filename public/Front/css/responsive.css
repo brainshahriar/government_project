@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1030px) {
+  #home-page #nav-bar .navbar-nav a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #nav-bar .navbar a:hover {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+  }
+  #home-page #nav-bar .navbar-nav a {
+    font-size: 17px;
+  }
+  #home-page #header .header-section {
+    padding-left: 25px;
+  }
+  #home-page #main #content #main-slider img {
+    height: 285px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #home-page #main #content #main-slider img {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #home-page .container {
+    padding: 0;
+  }
+  #home-page .padding-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #home-page #header .header-section {
+    padding: 6px 15px;
+  }
+  #home-page #main #content #main-slider img {
+    height: 285px;
+  }
+  #home-page #main #content .service .content .card .title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #home-page #header .header-section {
+    padding: 4px 10px;
+  }
+  #home-page #main #content #main-slider img {
+    height: 240px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
